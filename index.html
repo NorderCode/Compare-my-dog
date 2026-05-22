@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6efe7">
+    <title>Hunde Duell</title>
+    <link rel="preconnect" href="https://commons.wikimedia.org">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./mobile.css" media="(max-width: 720px) and (orientation: portrait)">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Hunde Duell</p>
+          <h1>Wähle deinen Favoriten</h1>
+        </div>
+        <div class="round-pill" aria-live="polite">
+          <span id="roundNow">1</span><span>/10</span>
+        </div>
+      </header>
+
+      <section class="controls" aria-label="Vergleichsmodus">
+        <button class="mode-button is-active" type="button" data-age="adult">Große Hunde</button>
+        <button class="mode-button" type="button" data-age="puppy">Welpen</button>
+        <button class="icon-button" type="button" id="restartButton" aria-label="Neu starten" title="Neu starten">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 11a8.1 8.1 0 0 0-15.5-3M4 4v4h4M4 13a8.1 8.1 0 0 0 15.5 3M20 20v-4h-4"/>
+          </svg>
+        </button>
+      </section>
+
+      <section class="arena" id="arena" aria-live="polite">
+        <button class="dog-card" type="button" data-slot="left">
+          <span class="image-wrap">
+            <img alt="" id="leftImage">
+            <span class="loading">Lädt</span>
+          </span>
+          <span class="breed-name" id="leftName"></span>
+          <span class="source" id="leftSource"></span>
+        </button>
+
+        <div class="versus" aria-hidden="true">oder</div>
+
+        <button class="dog-card" type="button" data-slot="right">
+          <span class="image-wrap">
+            <img alt="" id="rightImage">
+            <span class="loading">Lädt</span>
+          </span>
+          <span class="breed-name" id="rightName"></span>
+          <span class="source" id="rightSource"></span>
+        </button>
+      </section>
+
+      <section class="result" id="result" hidden>
+        <p>Mein Liebling</p>
+      </section>
+
+      <footer class="footnote">
+        Bilder werden aus Wikimedia Commons geladen und bleiben mit der jeweiligen Quellseite verknüpft.
+      </footer>
+    </main>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
