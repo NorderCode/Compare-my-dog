@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Hunde Duell App Icon</title>
+  <desc id="desc">Ein niedliches Hundegesicht auf rosa Pastellhintergrund.</desc>
+  <rect width="512" height="512" rx="112" fill="#fff1f8"/>
+  <circle cx="116" cy="112" r="38" fill="#ffe69a"/>
+  <circle cx="416" cy="132" r="52" fill="#b8eadb"/>
+  <circle cx="392" cy="404" r="44" fill="#d9c8ff"/>
+  <path d="M153 162c-42 5-73 43-70 86 3 49 44 92 91 94 22 1 41-7 55-21-12-33-15-69-9-106-17-36-40-56-67-53Z" fill="#b8467c"/>
+  <path d="M359 162c42 5 73 43 70 86-3 49-44 92-91 94-22 1-41-7-55-21 12-33 15-69 9-106 17-36 40-56 67-53Z" fill="#b8467c"/>
+  <path d="M142 252c0-88 54-153 114-153s114 65 114 153c0 94-46 161-114 161s-114-67-114-161Z" fill="#fffefd"/>
+  <path d="M178 242c0-63 35-110 78-110s78 47 78 110c0 69-31 119-78 119s-78-50-78-119Z" fill="#ffd6e8"/>
+  <circle cx="216" cy="235" r="21" fill="#3d2946"/>
+  <circle cx="296" cy="235" r="21" fill="#3d2946"/>
+  <circle cx="224" cy="226" r="7" fill="#fff"/>
+  <circle cx="304" cy="226" r="7" fill="#fff"/>
+  <path d="M232 283c0-14 11-24 24-24s24 10 24 24c0 13-11 22-24 22s-24-9-24-22Z" fill="#5b3142"/>
+  <path d="M256 302v20" fill="none" stroke="#5b3142" stroke-width="13" stroke-linecap="round"/>
+  <path d="M214 324c15 22 69 22 84 0" fill="none" stroke="#5b3142" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="180" cy="280" r="18" fill="#ff9cc9" opacity=".72"/>
+  <circle cx="332" cy="280" r="18" fill="#ff9cc9" opacity=".72"/>
+  <path d="M132 94c17 24 39 35 66 34" fill="none" stroke="#f07aae" stroke-width="18" stroke-linecap="round"/>
+  <path d="M380 94c-17 24-39 35-66 34" fill="none" stroke="#f07aae" stroke-width="18" stroke-linecap="round"/>
+</svg>

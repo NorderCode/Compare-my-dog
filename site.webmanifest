@@ -1,0 +1,28 @@
+{
+  "name": "Hunde Duell",
+  "short_name": "Hunde Duell",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff6fb",
+  "theme_color": "#f07aae",
+  "icons": [
+    {
+      "src": "./assets/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
